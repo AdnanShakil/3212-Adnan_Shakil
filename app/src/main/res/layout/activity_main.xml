@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adnanshakeel.bs_app.MainActivity"
+  >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="*****"
+        android:textSize="30dp"
+        android:id="@+id/txtEsterik"
+        />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/txtEsterik"
+       android:hint="Enter Text Here"
+       android:layout_marginTop="35dp"
+       android:id="@+id/txtEnterText"
+
+       />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtEnterText"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="49dp"
+        android:text="Clear"
+       />
+
+   <Button
+       android:id="@+id/btnAdd"
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/btnClear"
+       android:layout_alignBottom="@+id/btnClear"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginEnd="23dp"
+       android:layout_marginRight="23dp"
+       android:text="ADD"/>
+
+   <Button
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/btnClear"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="37dp"
+       android:text="OPEN CALCULATOR"
+       android:id="@+id/btnOpen"/>
+
+</RelativeLayout>
